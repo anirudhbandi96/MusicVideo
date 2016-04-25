@@ -48,7 +48,7 @@
 		8F2B4E791CCE29DC00170620 /* MusicVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2B4E7D1CCE29DC00170620 /* MusicVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVideoUITests.swift; sourceTree = "<group>"; };
 		8F2B4E7F1CCE29DC00170620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8FB4FE111CCE4B7C00F101BD /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		8FB4FE111CCE4B7C00F101BD /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = ../APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,6 @@
 		8F2B4E511CCE29DC00170620 = {
 			isa = PBXGroup;
 			children = (
-				8FB4FE111CCE4B7C00F101BD /* APIManager.swift */,
 				8F2B4E5C1CCE29DC00170620 /* MusicVideo */,
 				8F2B4E711CCE29DC00170620 /* MusicVideoTests */,
 				8F2B4E7C1CCE29DC00170620 /* MusicVideoUITests */,
@@ -129,6 +128,7 @@
 		8F2B4E8B1CCE2FD100170620 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8FB4FE111CCE4B7C00F101BD /* APIManager.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
