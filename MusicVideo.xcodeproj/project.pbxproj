@@ -14,6 +14,7 @@
 		8F2B4E681CCE29DC00170620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2B4E661CCE29DC00170620 /* LaunchScreen.storyboard */; };
 		8F2B4E731CCE29DC00170620 /* MusicVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2B4E721CCE29DC00170620 /* MusicVideoTests.swift */; };
 		8F2B4E7E1CCE29DC00170620 /* MusicVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2B4E7D1CCE29DC00170620 /* MusicVideoUITests.swift */; };
+		8FB4FE121CCE4B7C00F101BD /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4FE111CCE4B7C00F101BD /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8F2B4E791CCE29DC00170620 /* MusicVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2B4E7D1CCE29DC00170620 /* MusicVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVideoUITests.swift; sourceTree = "<group>"; };
 		8F2B4E7F1CCE29DC00170620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FB4FE111CCE4B7C00F101BD /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		8F2B4E511CCE29DC00170620 = {
 			isa = PBXGroup;
 			children = (
+				8FB4FE111CCE4B7C00F101BD /* APIManager.swift */,
 				8F2B4E5C1CCE29DC00170620 /* MusicVideo */,
 				8F2B4E711CCE29DC00170620 /* MusicVideoTests */,
 				8F2B4E7C1CCE29DC00170620 /* MusicVideoUITests */,
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB4FE121CCE4B7C00F101BD /* APIManager.swift in Sources */,
 				8F2B4E601CCE29DC00170620 /* ViewController.swift in Sources */,
 				8F2B4E5E1CCE29DC00170620 /* AppDelegate.swift in Sources */,
 			);
